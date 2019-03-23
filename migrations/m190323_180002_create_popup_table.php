@@ -26,6 +26,6 @@ class m190323_180002_create_popup_table extends Migration
      */
     public function Down()
     {
-        $this->dropTable('{{%popup}}');
+        $this->dropTable('{{popup}}');
     }
 }
